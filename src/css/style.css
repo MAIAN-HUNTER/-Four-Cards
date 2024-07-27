@@ -1,0 +1,136 @@
+main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.hub {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.perform {
+  font-family: "light";
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.ia {
+  font-family: "medium";
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+}
+
+svg {
+  align-self: flex-end;
+}
+
+.supervisor {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 170px;
+  margin-left: 10px;
+  padding: 20px;
+  flex-direction: column;
+  max-width: 240px;
+  height: 160px;
+  justify-content: start;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border-top: 2px solid cyan;
+}
+.team-builder {
+  display: flex;
+  padding: 20px;
+  max-width: 240px;
+  margin-top: -310px;
+  align-self: center;
+  height: 160px;
+  flex-direction: column;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border-top: 2px solid red;
+}
+
+.karma {
+  display: flex;
+  padding: 20px;
+  margin-top: 30px;
+  max-width: 240px;
+  height: 160px;
+  flex-direction: column;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border-top: 2px solid orange;
+}
+
+.calculator {
+  display: flex;
+  padding: 20px;
+  max-width: 240px;
+  margin-top: -325px;
+  margin-right: 10px;
+  align-self: flex-end;
+  height: 160px;
+  flex-direction: column;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin-bottom: 1px;
+  border-top: 2px solid blue;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+  .content {
+    display: block;
+    margin-left: 100px;
+    padding: 10px;
+  }
+
+  .hub {
+    padding: 10px;
+  }
+
+  .perform {
+    font-size: 16px;
+  }
+  .ia {
+    font-size: 20px;
+  }
+
+  .supervisor {
+    max-width: 210px;
+    max-height: 130px;
+    margin-top: 30px;
+    margin-bottom: 350px;
+  }
+
+  .team-builder {
+    margin-bottom: 30px;
+    max-width: 210px;
+    max-height: 130px;
+  }
+  .karma {
+    margin-bottom: 350px;
+    max-width: 210px;
+    max-height: 130px;
+  }
+  .calculator svg {
+    padding-top: 10px;
+  }
+
+  .calculator {
+    margin-bottom: 10px;
+    max-height: 130px;
+    max-width: 210px;
+  }
+}
