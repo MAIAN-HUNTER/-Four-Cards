@@ -25,7 +25,6 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 600px;
 }
 
 svg {
@@ -90,9 +89,10 @@ svg {
   body {
     font-size: 12px;
   }
+
   .content {
     display: block;
-    margin-left: 100px;
+    margin-left: 60px;
     padding: 10px;
   }
 
@@ -111,6 +111,7 @@ svg {
     max-width: 210px;
     max-height: 130px;
     margin-top: 30px;
+    margin-left: 0px;
     margin-bottom: 350px;
   }
 
